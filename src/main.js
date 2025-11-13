@@ -1,8 +1,8 @@
 const button = document.getElementById("button");
-const text = documennt.getElementById("klick");
+const text = document.getElementById("text");
 
 button.addEventListener ("click", () => {
-text.InnerText = "Du klickade på knappen!";
+text.innerText = "Du klickade på knappen!";
 });
 
 const sum = document.getElementById("sum");
