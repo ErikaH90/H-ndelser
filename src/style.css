@@ -1,1 +1,71 @@
+/* Allmän stil för body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  color: #333;
+}
+
+/* Formulär */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+/* Etiketter */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Inputfält */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Knappar */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Specifika knappar */
+#button {
+  background-color: #008CBA;
+}
+
+#button:hover {
+  background-color: #007bb5;
+}
+
+/* Resultat-divar */
+#sum, #text, #big {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffe0;
+  border: 1px solid #f0e68c;
+  border-radius: 6px;
+  font-weight: bold;
+}
 
